@@ -46,7 +46,7 @@ FULL_DOCKER = 'full_docker'
 debug_mode = True
 
 device_list = ['cpu', 'gpu', 'mps']
-default_device = 'cpu'
+default_device = 'mps'
 default_gpu_wiki = '<a href="https://github.com/DrewThomasson/ebook2audiobook/wiki/GPU-ISSUES">howto wiki</a>'
 
 python_env_dir = os.path.abspath(os.path.join('.','python_env'))

@@ -1,0 +1,6 @@
+audiobooks/cli/*
+models/hub/*
+models/stanza/*
+models/tts/*
+tmp/*
+voices/__sessions/*
