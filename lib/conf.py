@@ -64,9 +64,11 @@ interface_component_options = {
     "gr_group_custom_model": True
 }
 
+OPEN_AUDIBLE_DIR = '/Users/jacob/Library/Mobile Documents/com~apple~CloudDocs/OpenAudible/books'
+
 audiobooks_gradio_dir = os.path.abspath(os.path.join('audiobooks','gui','gradio'))
-audiobooks_host_dir = os.path.abspath(os.path.join('audiobooks','gui','host'))
-audiobooks_cli_dir = os.path.abspath(os.path.join('audiobooks','cli'))
+audiobooks_host_dir = os.path.join(OPEN_AUDIBLE_DIR)
+audiobooks_cli_dir = os.path.join(OPEN_AUDIBLE_DIR)
 
 ebook_formats = ['.epub', '.mobi', '.azw3', '.fb2', '.lrf', '.rb', '.snb', '.tcr', '.pdf', '.txt', '.rtf', '.doc', '.docx', '.html', '.odt', '.azw']
 voice_formats = ['.mp4', '.m4b', '.m4a', '.mp3', '.wav', '.aac', '.flac', '.alac', '.ogg', '.aiff', '.aif', '.wma', '.dsd', '.opus', '.pcmu', '.pcma', '.gsm'] # Add or remove the format you wish
